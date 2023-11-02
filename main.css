@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: aliceblue;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: aliceblue;
+    padding-left: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.articles article a {
+    background-color: blue;
+    border-radius: 2px;
+    color: aliceblue;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 16px;
+}
+section h2 {
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0,0.1);
+}
+
+#sports .articles article a {
+    background-color: rgb(41, 163, 41); 
+}
+
+#economy {
+    background-color: #ebe8b8;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+
+#tecnology {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+#tecnology .articles article a {
+    background-color: rgb(51, 51, 221);
+}
+
+#entertainment {
+    background-color: rgba(255, 10, 0, 0.1);
+}
+
+#entertainment .articles article a {
+    background-color: rgb(223, 95, 95);
+}
