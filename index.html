@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Validação de números</title>
+        <link rel="stylesheet" href="./main.css" />
+    </head>
+
+    <body>
+        <div class="center">
+            <h1>Validação de Números JavaScript e HTML</h1>
+            <form id="valid-form">
+                <label for="n1"> Campo A </label>
+                <input type="number" id="n1" required placeholder="Campo A" />
+                <label for="n2">Campo B</label>
+                <input type="number" id="n2" required placeholder="Campo B" />
+                <p class="error-message">O valor do campo B precisa ser maior que o valor A</p>
+                <p class="success-message">Formulário enviado com sucesso.</p>
+                <button type="submit">Valide os números</button>
+            </form>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
